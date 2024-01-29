@@ -1,0 +1,72 @@
+{
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0x7e2dc2b896b7aac98d6ee8e954d3f5bdcc90076b"
+  },
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0x1C4d5eCFBf2AF57251f20a524D0f0c1b4f6ED1C9"
+  },
+  "msdController": {
+    "contract": "MSDControllerV2",
+    "path": "contracts/msd/",
+    "address": "0x40BE37096ce3b8A2E9eC002468Ab91071501C499"
+  },
+  "priceOracle": {
+    "contract": "PriceOracleV2",
+    "path": "contracts/",
+    "address": "0x9E8B68E17441413b26C2f18e741EAba69894767c"
+  },
+  "aggregatorProxy": {
+    "contract": "AggregatorProxy",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0x7D25d250fBd63b0daC4A38c661075930c9a87AEa"
+  },
+  "FVAggregatorModel": {
+    "contract": "FVAggregatorModel",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0x0595e691F083530D18C16604092Ef930174264d5"
+  },
+  "ControllerFlashVaultImpl": {
+    "contract": "ControllerFlashVault",
+    "path": "contracts/FlashVault/",
+    "address": "0x1357Ee5616ED0f410380296ba314aC303e1D485C"
+  },
+  "flashVaultController": {
+    "contract": "ControllerFlashVault",
+    "path": "contracts/FlashVault/",
+    "address": "0x56570496C5fD443e49eb5635A6C3E30C9A54c3CA"
+  },
+  "vMSDImpl": {
+    "contract": "vMSD",
+    "path": "contracts/FlashVault/",
+    "address": "0x486BeBDE6ae82a58631AaAeD044DCF8c2fB3565a"
+  },
+  "vMUSX": {
+    "contract": "vMSD",
+    "path": "contracts/FlashVault/",
+    "address": "0x9150e119bFD2692cf94Df8d54F27339929c0943d"
+  },
+  "viTokenImpl": {
+    "contract": "viToken",
+    "path": "contracts/FlashVault/",
+    "address": "0xd8d07A8ab4F6a1cC4cF86b3cB11b78A7C1e701ad"
+  },
+  "viUSX": {
+    "contract": "viToken",
+    "path": "contracts/FlashVault/",
+    "address": "0x53BF3c82f62B152800E0152DB743451849F1aFF9"
+  },
+  "vMEUX": {
+    "contract": "vMSD",
+    "path": "contracts/FlashVault/",
+    "address": "0x271479036bB31DE5BD4A3544Ed5bA2b8Ef4eEbD3"
+  },
+  "viEUX": {
+    "contract": "viToken",
+    "path": "contracts/FlashVault/",
+    "address": "0x3EA2c9daa2aB26dbc0852ea653f99110c335f10a"
+  }
+}

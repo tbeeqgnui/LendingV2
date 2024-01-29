@@ -1,0 +1,37 @@
+{
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0x4FF0455bcfBB5886607c078E0F43Efb5DE34DeF4"
+  },
+  "msdController": {
+    "contract": "MSDControllerV2",
+    "path": "contracts/msd/",
+    "address": "0x45677a101D70E9910C418D9426bC6c5874CE2Fd7"
+  },
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0xBB247f5Ac912196A5AA80E9DD6aB252B79D6Ea25"
+  },
+  "MiniMinterImpl": {
+    "contract": "MiniMinter",
+    "path": "contracts/msd/",
+    "address": "0x5bedE655e2386AbC49E2Cc8303Da6036bF78564c"
+  },
+  "pdlpMiniMinter": {
+    "contract": "MiniMinter",
+    "path": "contracts/msd/",
+    "address": "0xA7A084538DE04d808f20C785762934Dd5dA7b3B4"
+  },
+  "L1BridgeOperatorImpl": {
+    "contract": "L1BridgeOperator",
+    "path": "contracts/operator/",
+    "address": "0xFE5Ad9975B533456caFCA9727C9AB47cbaB1FA3C"
+  },
+  "l1BridgeOperator": {
+    "contract": "L1BridgeOperator",
+    "path": "contracts/operator/",
+    "address": "0x5268b3c4afb0860D365a093C184985FCFcb65234"
+  }
+}

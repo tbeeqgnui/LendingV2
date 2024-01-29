@@ -1,0 +1,71 @@
+{
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0xdf00c38AC044Fcfa22B8F3C4fF06f6587FeD0248"
+  },
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0xc9aa79F70ac4a11619c649e857D74F517bBFeE47"
+  },
+  "msdController": {
+    "contract": "MSDControllerV2",
+    "path": "contracts/msd/",
+    "address": "0x38a5585d347E8DFc3965C1914498EAfbDeD7c5Ff"
+  },
+  "ControllerFlashVaultImpl": {
+    "contract": "ControllerFlashVault",
+    "path": "contracts/FlashVault/",
+    "address": "0x6bf21bf8cb213997ac0f3a3b1fed431e2bd0c45a"
+  },
+  "flashVaultController": {
+    "contract": "ControllerFlashVault",
+    "path": "contracts/FlashVault/",
+    "address": "0xA300A84D8970718Dac32f54F61Bd568142d8BCF4"
+  },
+  "vTokenImpl": {
+    "contract": "vToken",
+    "path": "contracts/FlashVault/",
+    "address": "0x428e1914404dbFf52bD8C7Baed9719cc5eD181be"
+  },
+  "vUSX": {
+    "contract": "vToken",
+    "path": "contracts/FlashVault/",
+    "address": "0x9E8B68E17441413b26C2f18e741EAba69894767c"
+  },
+  "viTokenImpl": {
+    "contract": "viToken",
+    "path": "contracts/FlashVault/",
+    "address": "0x7D25d250fBd63b0daC4A38c661075930c9a87AEa"
+  },
+  "viUSX": {
+    "contract": "viToken",
+    "path": "contracts/FlashVault/",
+    "address": "0x3A5985F97222f7aB85C1A7e01563896e5C5c617C"
+  },
+  "priceOracle": {
+    "contract": "PriceOracleV2",
+    "address": "0x5f7CA155cd53f552e60f8D1B088D6e4CA5885c35"
+  },
+  "aggregatorProxy": {
+    "contract": "AggregatorProxy",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0x40BE37096ce3b8A2E9eC002468Ab91071501C499"
+  },
+  "FVAggregatorModel": {
+    "contract": "FVAggregatorModel",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0x1EE116B869eCc7cd13C629a8a2Ae39Fa361265CF"
+  },
+  "ArbiOperatorImpl": {
+    "contract": "ArbiOperator",
+    "path": "contracts/FlashVault/",
+    "address": "0x47C19A2ab52DA26551A22e2b2aEED5d19eF4022F"
+  },
+  "arbiOperator": {
+    "contract": "ArbiOperator",
+    "path": "contracts/FlashVault/",
+    "address": "0x1D2eB423bC723DA7f927CA21B56A4C22aF6C72B4"
+  }
+}

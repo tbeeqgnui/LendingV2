@@ -1,0 +1,12 @@
+{
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0x0800604DA276c1D5e9c2C7FEC0e3b43FAb1Ca61a"
+  },
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0x8C3984Fb0F649c304D68DB69457DBF137D156D7a"
+  }
+}

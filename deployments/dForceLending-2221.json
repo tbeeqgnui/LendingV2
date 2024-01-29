@@ -1,0 +1,68 @@
+{
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0x77E9e303Bbe225cf8A51cda571f96731442187A3"
+  },
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0x4b93F363b8e4532d4aEd18c75feC03D6a81b321d"
+  },
+  "stablePrimaryInterestModel": {
+    "contract": "StablePrimaryInterestModel@InterestRateModelV2",
+    "path": "contracts/InterestRateModel/",
+    "address": "0x18b859b23aE3aCcA84f2152A201962ca2cF8Fd77"
+  },
+  "priceOracle": {
+    "contract": "PriceOracleV2",
+    "path": "contracts/",
+    "address": "0xBa750E968F43f29cCE7719C402297e8a56A31531"
+  },
+  "aggregatorProxy": {
+    "contract": "AggregatorProxy",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0x569833eAd79ce1300A567752680E5D4AE9019D37"
+  },
+  "ControllerImpl": {
+    "contract": "Controller",
+    "address": "0xF2e810d11D454bc2201E36C5877D5CD9f0CA4664"
+  },
+  "controller": {
+    "contract": "Controller",
+    "address": "0x95BE06888df91961A756CF75622F226f7BfC35B3"
+  },
+  "RewardDistributorV3Impl": {
+    "contract": "RewardDistributorV3",
+    "address": "0x5363879Ee18981f59D5856F1978739598f03Fd27"
+  },
+  "rewardDistributor": {
+    "contract": "RewardDistributorV3",
+    "address": "0x118BdeF9670395D6d6560E91081cc8c92fb2F904"
+  },
+  "iTokenImpl": {
+    "contract": "iToken",
+    "address": "0x3F4f23C1456527ac3c22Da0B68237493e4d9F233"
+  },
+  "iUSDC": {
+    "contract": "iToken",
+    "address": "0x055a8133Ed53EE6F1b41be2f01981390103a822A"
+  },
+  "iWETH": {
+    "contract": "iToken",
+    "address": "0x7ED9C4bC1b36057cad857053449b9B215301EdfF"
+  },
+  "iETHImpl": {
+    "contract": "iETH",
+    "address": "0xb4AF8834843718A29030081fBBC685d3A62A0048"
+  },
+  "iKAVA": {
+    "contract": "iETH",
+    "address": "0xC950E7578461c42F29044aDe72B7880596eE5C51"
+  },
+  "lendingData": {
+    "contract": "LendingDataV2",
+    "path": "contracts/helper/",
+    "address": "0x6f194890068E864D740B6A6B332281840c8f84B6"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0xdD7A872603453E5f451147E1F689D22Ca3D587A1"
+  },
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0xB9498979c686f6662D916ceC08A9B759d6783E9C"
+  },
+  "fixedInterestRateModel": {
+    "contract": "FixedInterestRateModel",
+    "path": "contracts/InterestRateModel/",
+    "address": "0xFd07eE5d6608Be3A7A39734d6674B3f342666756"
+  },
+  "stablePrimaryInterestModel": {
+    "contract": "StablePrimaryInterestModel@InterestRateModelV2",
+    "path": "contracts/InterestRateModel/",
+    "address": "0xded0fb0Fd5585140960EAE4d6109d88eceAF1e86"
+  },
+  "priceOracle": {
+    "contract": "PriceOracleV2",
+    "path": "contracts/",
+    "address": "0x5237d212F9BbC83d91c2cbd810D2b07808d94f08"
+  },
+  "aggregatorProxy": {
+    "contract": "AggregatorProxy",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0x7DA545B2AC13bB89D430E0Ee91452F0479Fd49a5"
+  },
+  "MSDControllerV2Impl": {
+    "contract": "MSDControllerV2",
+    "path": "contracts/msd/",
+    "address": "0xe04cea4d02261923769D79Dd24D188C2cB29dB4A"
+  },
+  "msdController": {
+    "contract": "MSDControllerV2",
+    "path": "contracts/msd/",
+    "address": "0x654f07ee98022Ec7Ed66DabDC5C0da18868bC2f0"
+  },
+  "MSDImpl": {
+    "contract": "MSD",
+    "path": "contracts/msd/",
+    "address": "0x550842464375ce35942C8e01eB9d5Bb17f39b4b2"
+  },
+  "USX": {
+    "contract": "MSD",
+    "path": "contracts/msd/",
+    "address": "0x853ea32391AaA14c112C645FD20BA389aB25C5e0"
+  },
+  "ControllerImpl": {
+    "contract": "Controller",
+    "address": "0xA0409fc1a105203031c71E00fa0F47A238bdA806"
+  },
+  "controller": {
+    "contract": "Controller",
+    "address": "0x078ad8d6faeD9DAeE55f5d446C80E0C81230DE6b"
+  },
+  "RewardDistributorV3Impl": {
+    "contract": "RewardDistributorV3",
+    "address": "0xe729471B2d943F9AaaC1bb6c387eE0b27F5BF7D6"
+  },
+  "rewardDistributor": {
+    "contract": "RewardDistributorV3",
+    "address": "0xFBf64A8cAEA1D641affa185f850dbBF90d5c84dC"
+  },
+  "iTokenImpl": {
+    "contract": "iToken",
+    "address": "0x1Cf4b1d6c5427b6C5f90A9C4AA5eB24ABDf62062"
+  },
+  "iUSX": {
+    "contract": "iToken",
+    "address": "0x73C01B355F2147E5FF315680E068354D6344Eb0b"
+  },
+  "lendingData": {
+    "contract": "LendingDataV2",
+    "path": "contracts/helper/",
+    "address": "0xCdE604f2cD0465a31aa2CC8dD992d5d1D30Be90e"
+  }
+}

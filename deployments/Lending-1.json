@@ -1,0 +1,20 @@
+{
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0x17e66B1e0260C930bfA567ff3ab5c71794279b94"
+  },
+  "controller": {
+    "contract": "Controller",
+    "address": "0x8B53Ab2c0Df3230EA327017C91Eb909f815Ad113"
+  },
+  "controllerStock": {
+    "contract": "ControllerStock",
+    "address": "0x3bA6e5e5dF88b9A88B2c19449778A4754170EA17"
+  },
+  "msdController": {
+    "contract": "MSDControllerV2",
+    "path": "contracts/msd/",
+    "address": "0x45677a101D70E9910C418D9426bC6c5874CE2Fd7"
+  }
+}

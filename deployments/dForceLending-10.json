@@ -1,0 +1,87 @@
+{
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0x1C4d5eCFBf2AF57251f20a524D0f0c1b4f6ED1C9"
+  },
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0x0D535ca4C27f0C25a20e2D474Ee3E99c1316BAfe"
+  },
+  "fixedInterestRateModel": {
+    "contract": "FixedInterestRateModel",
+    "path": "contracts/InterestRateModel/",
+    "address": "0xC5b1EC605738eF73a4EFc562274c1c0b6609cF59"
+  },
+  "stablePrimaryInterestModel": {
+    "contract": "StablePrimaryInterestModel@InterestRateModelV2",
+    "path": "contracts/InterestRateModel/",
+    "address": "0x40BE37096ce3b8A2E9eC002468Ab91071501C499"
+  },
+  "stableSecondaryInterestModel": {
+    "contract": "StableSecondaryInterestModel@InterestRateModelV2",
+    "path": "contracts/InterestRateModel/",
+    "address": "0x5f7CA155cd53f552e60f8D1B088D6e4CA5885c35"
+  },
+  "mainPrimaryInterestModel": {
+    "contract": "MainPrimaryInterestModel@InterestRateModelV2",
+    "path": "contracts/InterestRateModel/",
+    "address": "0xec85F77104Ffa35a5411750d70eDFf8f1496d95b"
+  },
+  "mainSecondaryInterestModel": {
+    "contract": "MainSecondaryInterestModel@InterestRateModelV2",
+    "path": "contracts/InterestRateModel/",
+    "address": "0x1EE116B869eCc7cd13C629a8a2Ae39Fa361265CF"
+  },
+  "priceOracle": {
+    "contract": "PriceOracleV2",
+    "path": "contracts/",
+    "address": "0x4f9312A21F8853384E0f6141F3F9fB855d860161"
+  },
+  "ControllerImpl": {
+    "contract": "Controller",
+    "address": "0xcF427E1AC52A2D976B02B83F72BaeB905A92e488"
+  },
+  "controller": {
+    "contract": "Controller",
+    "address": "0xA300A84D8970718Dac32f54F61Bd568142d8BCF4"
+  },
+  "iTokenImpl": {
+    "contract": "iToken",
+    "address": "0x52eaCd19E38D501D006D2023C813d7E37F025f37"
+  },
+  "iETHImpl": {
+    "contract": "iETH",
+    "address": "0x92273acBD2F898D05904aa2fb2ead119F6733B33"
+  },
+  "LendingDataV2": {
+    "contract": "LendingDataV2",
+    "path": "contracts/helper/",
+    "address": "0x0C0AdB03423c8232a0b7785433919EaF62A59173"
+  },
+  "isUSD": {
+    "contract": "iToken",
+    "address": "0x1f144cD63d7007945292EBCDE14a6Df8628e2Ed7"
+  },
+  "iAAVE": {
+    "contract": "iToken",
+    "address": "0xD65a18dAE68C846297F3038C93deea0B181288d5"
+  },
+  "iCRV": {
+    "contract": "iToken",
+    "address": "0xED3c20d047D2c57C3C6DD862C9FDd1b353Aff36f"
+  },
+  "iDF": {
+    "contract": "iToken",
+    "address": "0x6832364e9538Db15655FA84A497f2927F74A6cE6"
+  },
+  "iOP": {
+    "contract": "iToken",
+    "address": "0x7702dC73e8f8D9aE95CF50933aDbEE68e9F1D725"
+  },
+  "iwstETH": {
+    "contract": "iToken",
+    "address": "0x4B3488123649E8A671097071A02DA8537fE09A16"
+  }
+}

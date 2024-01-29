@@ -1,0 +1,71 @@
+{
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0xdf00c38AC044Fcfa22B8F3C4fF06f6587FeD0248"
+  },
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0x2D76117C2C85c2E9C9FBF08199C9Be59af887526"
+  },
+  "msdController": {
+    "contract": "MSDControllerV2",
+    "path": "contracts/msd/",
+    "address": "0x16E7F5705967B2153473b8411D3faFe257262330"
+  },
+  "ControllerFlashVaultImpl": {
+    "contract": "ControllerFlashVault",
+    "path": "contracts/FlashVault/",
+    "address": "0x7dC78362373fCEE2D9997646AF6de241356fC990"
+  },
+  "flashVaultController": {
+    "contract": "ControllerFlashVault",
+    "path": "contracts/FlashVault/",
+    "address": "0x118546A1c809eF0D637dCB28B8db5E7820149fa8"
+  },
+  "vTokenImpl": {
+    "contract": "vToken",
+    "path": "contracts/FlashVault/",
+    "address": "0x80DB5B2C104F6119a4552fDcCdb90D41dBe7b427"
+  },
+  "vUSX": {
+    "contract": "vToken",
+    "path": "contracts/FlashVault/",
+    "address": "0x49C89e255FADED60278BE579e33472b825Bf5ebA"
+  },
+  "viTokenImpl": {
+    "contract": "viToken",
+    "path": "contracts/FlashVault/",
+    "address": "0x970c97BB1134Dceb8b27092f0418eE228fe90b6F"
+  },
+  "viUSX": {
+    "contract": "viToken",
+    "path": "contracts/FlashVault/",
+    "address": "0xcbea43E02fc0ACfdBd0B5116Cb318F260d446480"
+  },
+  "priceOracle": {
+    "contract": "PriceOracleV2",
+    "address": "0xB2026114ea2Bb24A903809376D74710e154850CC"
+  },
+  "aggregatorProxy": {
+    "contract": "AggregatorProxy",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0x5e5D4526e262f1c2e417b0c0957b30c3F7b4A1A9"
+  },
+  "FVAggregatorModel": {
+    "contract": "FVAggregatorModel",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0xA6819B6FaeA0DfCDdd9A86354156345769f2eb49"
+  },
+  "OpOperatorImpl": {
+    "contract": "OpOperator",
+    "path": "contracts/FlashVault/",
+    "address": "0x32057C55446Dc17d145dCB31fFcc1556360333a7"
+  },
+  "opOperator": {
+    "contract": "OpOperator",
+    "path": "contracts/FlashVault/",
+    "address": "0x85385347281690BCAb93b6d6B33babC2CE275800"
+  }
+}

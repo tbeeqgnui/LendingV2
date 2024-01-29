@@ -1,0 +1,16 @@
+{
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0x1C4d5eCFBf2AF57251f20a524D0f0c1b4f6ED1C9"
+  },
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0x7e2dc2b896b7aac98d6ee8e954d3f5bdcc90076b"
+  },
+  "rewardDistributor": {
+    "contract": "RewardDistributorV3",
+    "address": "0x47C19A2ab52DA26551A22e2b2aEED5d19eF4022F"
+  }
+}

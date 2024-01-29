@@ -1,0 +1,147 @@
+{
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0x1E96e916A64199069CcEA2E6Cf4D63d30a61b93d"
+  },
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0xc9aa79F70ac4a11619c649e857D74F517bBFeE47"
+  },
+  "fixedInterestRateModel": {
+    "contract": "FixedInterestRateModel",
+    "path": "contracts/InterestRateModel/",
+    "address": "0x96429fD3a3b29C918c3734b86871142aAA6ce2fd"
+  },
+  "msdControllerV2": {
+    "contract": "MSDControllerV2",
+    "path": "contracts/msd/",
+    "address": "0x38a5585d347E8DFc3965C1914498EAfbDeD7c5Ff"
+  },
+  "iTokenImpl": {
+    "contract": "iToken",
+    "path": "contracts/",
+    "address": "0x45b5636B01091336F02194D327374924D54a0772"
+  },
+  "TreasuryImpl": {
+    "contract": "Treasury",
+    "path": "contracts/MiniPool/",
+    "address": "0x448BBbDB706cD0a6AB74fA3d1157e7A33Dd3A4a8"
+  },
+  "treasury": {
+    "contract": "Treasury",
+    "path": "contracts/MiniPool/",
+    "address": "0x5ebc758AC96316Fb3c80AbFF549962f305A54a30"
+  },
+  "priceOracle": {
+    "contract": "PriceOracleV2",
+    "path": "contracts/",
+    "address": "0x15962427A9795005c640A6BF7f99c2BA1531aD6d"
+  },
+  "aggregatorProxy": {
+    "contract": "AggregatorProxy",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0x0D535ca4C27f0C25a20e2D474Ee3E99c1316BAfe"
+  },
+  "LPCurveAggregatorModel": {
+    "contract": "LPCurveAggregatorModel",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0xB047039B2922B5DAFd527860235DBA6C3bDa7F9A"
+  },
+  "ControllerImpl": {
+    "contract": "Controller",
+    "path": "contracts/",
+    "address": "0x5385bCC7420012BaBd14675A466e24FBE2f9b1D6"
+  },
+  "controller_USX/2CRV": {
+    "contract": "Controller",
+    "path": "contracts/",
+    "address": "0x50210A88217d1dD9e7FBc3E4a927Cc55829a38eB"
+  },
+  "iToken_USX/2CRV": {
+    "contract": "iToken",
+    "path": "contracts/",
+    "address": "0x3EA2c9daa2aB26dbc0852ea653f99110c335f10a"
+  },
+  "iMSDMiniPoolImpl": {
+    "contract": "iMSDMiniPool",
+    "path": "contracts/MiniPool/",
+    "address": "0xeF535decdCA4B72608ff82A692864E1A4ccd50e5"
+  },
+  "vMUSX_USX/2CRV": {
+    "contract": "iMSDMiniPool",
+    "path": "contracts/MiniPool/",
+    "address": "0x8A49dbE58CE2D047D3453a3ee4f0F245b7195f67"
+  },
+  "Lending_Data": {
+    "contract": "LendingDataMini",
+    "path": "contracts/helper/",
+    "address": "0xbab84D20A2E1419635E35AFB6955154bcE64ABA9"
+  },
+  "RewardDistributorV3Impl_": {
+    "contract": "RewardDistributorV3",
+    "path": "contracts/",
+    "address": "0x7B6f77B7C03F480e1754e25D8d19bb083A0C9893"
+  },
+  "RewardDistributorV3Impl": {
+    "contract": "RewardDistributorV3",
+    "path": "contracts/",
+    "address": "0xfbf344E289F6324e82495370769534221634b2e4"
+  },
+  "controller_USX/2CRV_RewardDistributor": {
+    "contract": "RewardDistributorV3",
+    "path": "contracts/",
+    "address": "0x00b006A1Db650f41aaA367F353572c869b373592"
+  },
+  "iTokenAggregatorModel": {
+    "contract": "iTokenAggregatorModel",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0x783F80DcD3af3c751104b165eA699c281ffC3F47"
+  },
+  "LPCurveGaugeAggregatorModel": {
+    "contract": "LPCurveGaugeAggregatorModel",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0x9a0B57024Ff206A658e46ffE9F60C7c14cF30b80"
+  },
+  "controller_iwstETH": {
+    "contract": "Controller",
+    "path": "contracts/",
+    "address": "0xcfe6d1b2BE777f20AD6F98f1c12C6436652F2031"
+  },
+  "controller_iwstETH_RewardDistributor": {
+    "contract": "RewardDistributorV3",
+    "path": "contracts/",
+    "address": "0xaB870CCaa9e3b75328fDd9b30a19b1F7Bb56fCeC"
+  },
+  "iToken_iwstETH": {
+    "contract": "iToken",
+    "path": "contracts/",
+    "address": "0xd48Ca4bEA52F5D1C2cFd76d43491A05F44B4Aa11"
+  },
+  "vMUSX_iwstETH": {
+    "contract": "iMSDMiniPool",
+    "path": "contracts/MiniPool/",
+    "address": "0xBf293bacBbF9A4c646c7Cb6EfDB2fcE5e3552105"
+  },
+  "controller_wstETHCRV-gauge": {
+    "contract": "Controller",
+    "path": "contracts/",
+    "address": "0x61afB763bc265bD372e8Af8daC00196C9A5eCea0"
+  },
+  "controller_wstETHCRV-gauge_RewardDistributor": {
+    "contract": "RewardDistributorV3",
+    "path": "contracts/",
+    "address": "0x2001bd67C56F75dDCcA6EC9a7960abf8859E1411"
+  },
+  "iToken_wstETHCRV-gauge": {
+    "contract": "iToken",
+    "path": "contracts/",
+    "address": "0x2cE498b79C499c6BB64934042eBA487bD31F75ea"
+  },
+  "vMUSX_wstETHCRV-gauge": {
+    "contract": "iMSDMiniPool",
+    "path": "contracts/MiniPool/",
+    "address": "0xC462fF1063172BAC6f6823A17ED181a0586f0FC8"
+  }
+}

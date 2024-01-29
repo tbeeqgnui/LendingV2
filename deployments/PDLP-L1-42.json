@@ -1,0 +1,32 @@
+{
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0xeFF5fAA89B52c8F02f1bA14AD1b8F732E8f5648a"
+  },
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0xeFF5fAA89B52c8F02f1bA14AD1b8F732E8f5648a"
+  },
+  "MiniMinterImpl": {
+    "contract": "MiniMinter",
+    "path": "contracts/msd/",
+    "address": "0x158C8011B3A0FD24D038F2094C789819CdebeA7A"
+  },
+  "L1BridgeOperatorImpl": {
+    "contract": "L1BridgeOperator",
+    "path": "contracts/operator/",
+    "address": "0x18D3eBfE64edf076b740F664D9bFef06D6EBcB3F"
+  },
+  "pdlpMiniMinter": {
+    "contract": "MiniMinter",
+    "path": "contracts/msd/",
+    "address": "0x6f9602ad88De5c0104A7E165b0A970E5fddaC4e2"
+  },
+  "l1BridgeOperator": {
+    "contract": "L1BridgeOperator",
+    "path": "contracts/operator/",
+    "address": "0x1ed88B0fe7090F26Cf8c63fF26b42e2904bB83d8"
+  }
+}

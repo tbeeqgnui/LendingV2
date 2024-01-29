@@ -1,0 +1,17 @@
+{
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0xBB247f5Ac912196A5AA80E9DD6aB252B79D6Ea25"
+  },
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0x4FF0455bcfBB5886607c078E0F43Efb5DE34DeF4"
+  },
+  "msdController": {
+    "contract": "MSDControllerV2",
+    "path": "contracts/msd/",
+    "address": "0x45677a101D70E9910C418D9426bC6c5874CE2Fd7"
+  }
+}

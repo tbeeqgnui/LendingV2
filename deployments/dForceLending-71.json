@@ -1,0 +1,114 @@
+{
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0xE189e9585b392624c343b750632C00b452022d53"
+  },
+  "timelock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0xD86E43f400e65d1e68fE1eea409799506C51652F"
+  },
+  "stablePrimaryInterestModel": {
+    "contract": "StablePrimaryInterestModel@InterestRateModelV2",
+    "path": "contracts/InterestRateModel/",
+    "address": "0x4Be573d48fB05e00e5c6B73B89164e457F8e2984"
+  },
+  "stableSecondaryInterestModel": {
+    "contract": "StableSecondaryInterestModel@InterestRateModelV2",
+    "path": "contracts/InterestRateModel/",
+    "address": "0xBB6f3A8ad841D89675357521907A6Bc57590569F"
+  },
+  "mainPrimaryInterestModel": {
+    "contract": "MainPrimaryInterestModel@InterestRateModelV2",
+    "path": "contracts/InterestRateModel/",
+    "address": "0x7cb50dcb90F7F98120B18C727556942f25e30F2a"
+  },
+  "mainSecondaryInterestModel": {
+    "contract": "MainSecondaryInterestModel@InterestRateModelV2",
+    "path": "contracts/InterestRateModel/",
+    "address": "0xCE1A42eC7d25ceF9468d8A7D00B9C532a4aEB918"
+  },
+  "priceOracle": {
+    "contract": "PriceOracleV2",
+    "path": "contracts/",
+    "address": "0x6005cA02F96B02501C45e39124026daFb9eAD00A"
+  },
+  "MSDControllerV2Impl": {
+    "contract": "MSDControllerV2",
+    "path": "contracts/msd/",
+    "address": "0xa498e01C2192AabdC6eB5163A45b64bff9E717B9"
+  },
+  "msdController": {
+    "contract": "MSDControllerV2",
+    "path": "contracts/msd/",
+    "address": "0x21ed0F16940318C0c546A04991aB616805229673"
+  },
+  "MSDImpl": {
+    "contract": "MSD",
+    "path": "contracts/msd/",
+    "address": "0x1cD0b4aFA81568F967c769d48607796A6A2E8B71"
+  },
+  "USX": {
+    "contract": "MSD",
+    "path": "contracts/msd/",
+    "address": "0x278149105c5cd6D0CbE84C2E6f59dc20C14a2ab2"
+  },
+  "ControllerStockImpl": {
+    "contract": "ControllerStock",
+    "address": "0x191397f929dAf294C744b60cD2A0EE11DA9652D9"
+  },
+  "controller": {
+    "contract": "ControllerStock",
+    "address": "0x1FC94B633F5F25171F86B7b4Ac845e762E3233Bd"
+  },
+  "RewardDistributorV3Impl": {
+    "contract": "RewardDistributorV3",
+    "address": "0x614433c6F8d8dDf0596D0336a5C0a3d26bBD6c66"
+  },
+  "rewardDistributor": {
+    "contract": "RewardDistributorV3",
+    "address": "0xc2e6D757b1A0edFA90BF0Ce412C78321fC21f50b"
+  },
+  "iTokenImpl": {
+    "contract": "iToken",
+    "address": "0x35170ef67d5231aA224Ae88ea3FB2592EaDC2e1b"
+  },
+  "iETH": {
+    "contract": "iToken",
+    "address": "0x81004bB91c611B646b630426eB8A46f0eBea69F5"
+  },
+  "iETHImpl": {
+    "contract": "iETH",
+    "address": "0x9Dd80cb0d3E4a7dEbbcd91E5D3112842D866f82e"
+  },
+  "iCFX": {
+    "contract": "iETH",
+    "address": "0xF77508f5deEc008238C226e074E00455be7B9c74"
+  },
+  "iUSX": {
+    "contract": "iToken",
+    "address": "0xC4fF55776eF0dAC86890cA2C1aD7859d5C0Ae3c6"
+  },
+  "lendingData": {
+    "contract": "LendingDataV2",
+    "path": "contracts/helper/",
+    "address": "0xC96D817aFA4512CaC23f70eE4f3AB7b3f2dc0bcb"
+  },
+  "iWBTC": {
+    "contract": "iToken",
+    "address": "0xC52953db2C5764aB192C84eCd08508b0A7815E1D"
+  },
+  "iUSDC": {
+    "contract": "iToken",
+    "address": "0x95659C4C8110E75459F5C39d12723930A57531B2"
+  },
+  "iUSDT": {
+    "contract": "iToken",
+    "address": "0x4B0bFd5465761e111a021826B903Af2435A8C72d"
+  },
+  "iUSDCT": {
+    "contract": "iToken",
+    "address": "0xFC093f85F73ABe949F46da18fA863fB9E3A3DC8d"
+  }
+}

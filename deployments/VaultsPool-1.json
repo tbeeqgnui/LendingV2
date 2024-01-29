@@ -1,0 +1,92 @@
+{
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0x17e66B1e0260C930bfA567ff3ab5c71794279b94"
+  },
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0x4FF0455bcfBB5886607c078E0F43Efb5DE34DeF4"
+  },
+  "fixedInterestRateModel": {
+    "contract": "FixedInterestRateModel",
+    "path": "contracts/InterestRateModel/",
+    "address": "0x22961D0Ba5150f97AE0F3248b4c415875cBf42d5"
+  },
+  "msdControllerV2": {
+    "contract": "MSDControllerV2",
+    "path": "contracts/msd/",
+    "address": "0x45677a101D70E9910C418D9426bC6c5874CE2Fd7"
+  },
+  "iTokenImpl": {
+    "contract": "iToken",
+    "path": "contracts/",
+    "address": "0x1a5DE76EF2261fc6Cb281f8a447bEF4E48EF5d25"
+  },
+  "TreasuryImpl": {
+    "contract": "Treasury",
+    "path": "contracts/MiniPool/",
+    "address": "0x401f64Ae217708407E8b94A8A2cB77C75DFd22f5"
+  },
+  "treasury": {
+    "contract": "Treasury",
+    "path": "contracts/MiniPool/",
+    "address": "0x56570496C5fD443e49eb5635A6C3E30C9A54c3CA"
+  },
+  "priceOracle": {
+    "contract": "PriceOracleV2",
+    "path": "contracts/",
+    "address": "0x486BeBDE6ae82a58631AaAeD044DCF8c2fB3565a"
+  },
+  "aggregatorProxy": {
+    "contract": "AggregatorProxy",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0x5a8B3B8b381e735042cc6E7cD925268f9a593B01"
+  },
+  "LPCurveAggregatorModel": {
+    "contract": "LPCurveAggregatorModel",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0x0288eF3966f02d516c482b09b4f890c31E935b2a"
+  },
+  "ControllerImpl": {
+    "contract": "Controller",
+    "path": "contracts/",
+    "address": "0x91b373B20d39a11406AF6d4ADC2b979A6e572cBd"
+  },
+  "controller_USX/3CRV": {
+    "contract": "Controller",
+    "path": "contracts/",
+    "address": "0x1E96e916A64199069CcEA2E6Cf4D63d30a61b93d"
+  },
+  "iToken_USX/3CRV": {
+    "contract": "iToken",
+    "path": "contracts/",
+    "address": "0xd8d07A8ab4F6a1cC4cF86b3cB11b78A7C1e701ad"
+  },
+  "iMSDMiniPoolImpl": {
+    "contract": "iMSDMiniPool",
+    "path": "contracts/MiniPool/",
+    "address": "0xF5805A48dB12967A84b55d118f6cDD7C2564ac29"
+  },
+  "vMUSX_USX/3CRV": {
+    "contract": "iMSDMiniPool",
+    "path": "contracts/MiniPool/",
+    "address": "0x53BF3c82f62B152800E0152DB743451849F1aFF9"
+  },
+  "Lending_Data": {
+    "contract": "LendingDataMini",
+    "path": "contracts/helper/",
+    "address": "0xA11583480D6A5Ee1cc2D47676916eC165C70426E"
+  },
+  "RewardDistributorV3Impl": {
+    "contract": "RewardDistributorV3",
+    "path": "contracts/",
+    "address": "0xF48AE39A4b37212D5204541D0fd07B537eC18035"
+  },
+  "controller_USX/3CRV_RewardDistributor": {
+    "contract": "RewardDistributorV3",
+    "path": "contracts/",
+    "address": "0x5ebc758AC96316Fb3c80AbFF549962f305A54a30"
+  }
+}

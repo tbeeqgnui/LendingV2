@@ -1,0 +1,62 @@
+{
+  "proxyAdmin": {
+    "contract": "ProxyAdmin",
+    "path": "contracts/library/",
+    "address": "0xded0fb0Fd5585140960EAE4d6109d88eceAF1e86"
+  },
+  "timeLock": {
+    "contract": "Timelock",
+    "path": "contracts/governance/",
+    "address": "0x5237d212F9BbC83d91c2cbd810D2b07808d94f08"
+  },
+  "priceOracle": {
+    "contract": "PriceOracleV2",
+    "path": "contracts/",
+    "address": "0xe04cea4d02261923769D79Dd24D188C2cB29dB4A"
+  },
+  "aggregatorProxy": {
+    "contract": "AggregatorProxy",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0xa2E24aBe6cD2Cf51EBd205eF3A2C1b38efEd05a3"
+  },
+  "msdController": {
+    "contract": "MSDControllerV2",
+    "path": "contracts/msd/",
+    "address": "0x853ea32391AaA14c112C645FD20BA389aB25C5e0"
+  },
+  "FVAggregatorModel": {
+    "contract": "FVAggregatorModel",
+    "path": "contracts/aggregatorModelV2/",
+    "address": "0x511eE68214890773ad112B15574d08980A83b770"
+  },
+  "ControllerFlashVaultImpl": {
+    "contract": "ControllerFlashVault",
+    "path": "contracts/FlashVault/",
+    "address": "0x1acfA057177F8506b83F397D042991d0B3b96a9D"
+  },
+  "flashVaultController": {
+    "contract": "ControllerFlashVault",
+    "path": "contracts/FlashVault/",
+    "address": "0xC8e4A88560EabC8027A84bcC5742927BeBcF35C8"
+  },
+  "vMSDImpl": {
+    "contract": "vMSD",
+    "path": "contracts/FlashVault/",
+    "address": "0x2610CC2f20F9F3c1B180b7e8836C8c222a540cc8"
+  },
+  "vMUSX": {
+    "contract": "vMSD",
+    "path": "contracts/FlashVault/",
+    "address": "0x9Ee9Ed4b19100DEb781313D426A43adf2A218AB4"
+  },
+  "viTokenImpl": {
+    "contract": "viToken",
+    "path": "contracts/FlashVault/",
+    "address": "0x592e588640c583a5e1A37b446e100E1e3655AE23"
+  },
+  "viUSX": {
+    "contract": "viToken",
+    "path": "contracts/FlashVault/",
+    "address": "0x7Ad45b901f4d15a2756E422768D1f4d37dAf96c1"
+  }
+}
